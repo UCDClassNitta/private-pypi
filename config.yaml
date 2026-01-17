@@ -1,0 +1,4 @@
+repos:
+  - UCDClassNitta/human-login-session
+
+clone_dir: .repo_clones
