@@ -137,7 +137,7 @@ class WheelhouseBuilder:
                 filename_split = filename.name.split('-')
                 whl_package = filename_split[0]
                 whl_version = filename_split[1]
-                if whl_package == package_name:
+                if whl_package == package_name.replace('-','_'):
                     out_file.write(f'    <a href="{filename.name}">v{whl_version}</a><br>\n')
             out_file.write('''  </body>
 </html>''')
