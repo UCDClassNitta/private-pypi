@@ -1,4 +1,5 @@
 repos:
   - UCDClassNitta/human-login-session
+  - UCDClassNitta/canvasapi-csrf
 
 clone_dir: .repo_clones
